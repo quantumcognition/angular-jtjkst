@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  background-color: #ecf0f1;
+  margin-top: 80px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-color: 1px solid black;
+  border-radius: 40px;
+  margin: 25px;
+}

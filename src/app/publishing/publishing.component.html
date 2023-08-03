@@ -1,0 +1,10 @@
+<div class="spinBox">
+  <form>
+    <input #fname type="text" id="fname" name="fname" />
+
+    <button (click)="readRandom($event, fname.value)">Publish</button>
+   </form>
+  <div></div>
+</div>
+
+<div>{{ fname.value }}</div>
